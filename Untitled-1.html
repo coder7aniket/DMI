@@ -1,0 +1,65 @@
+<html>
+    <head>
+        <script src="Untitled-2.js"></script>
+    </head>
+    <body>
+        <script>
+            var a=10;
+            var b=20;
+            var c="A";
+            var d= ["1","2","3","4","5"];
+            var e=true;
+            var f=false;
+            var sum= a+b;
+            var mul=a*b;
+            var sub=a-b;
+            var div=a/b;
+            document.write(e);
+            document.write("<br/>");
+            document.write(f);
+            document.write("<br/>");
+            document.write("sum is ",sum);
+            document.write("<br/>");
+            document.write(`sum =${sum},mul =${mul},diff =${sub},div =${div}`);
+            document.write("<br/>");
+            document.write(c);
+            document.write("<br/>");
+            document.write(d);
+            document.write("<br/>");
+
+
+            let age=prompt("enter your age");
+            
+            if(age>=18)
+            {
+                document.write("you are eligible to vote");
+            }
+            else 
+            {
+                document.write("you are not eligible ");
+            }
+
+            document.write("<br/>");
+
+            let salary=prompt("enter your salary");
+            switch(salary>0)
+            {
+            case salary<2000:
+                
+                document.write("bohot gareeb");
+                break;     
+            case salary>=10000:
+                
+                document.write("ameer");   
+                break;  
+            case salary>=20000:
+                
+                document.write("andha paisa bhai party");
+                break;
+            default:
+                document.write("kuch kam dhandha krlo");   
+            }
+        </script>
+
+    </body>
+</html>
